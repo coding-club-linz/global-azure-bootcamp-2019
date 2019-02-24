@@ -1,0 +1,20 @@
+{% for sessionpage in site.pages %}
+    {% if sessionpage.slot == include.slot and sessionpage.room == include.room %}
+        <div onclick="location.href='{{ site.baseurl }}{{ sessionpage.url }}'">
+            <h3>{{ sessionpage.title }}</h3>
+            <p class="d-block d-md-none"><b>Raum {{ sessionpage.room }}</b></p>
+            <div class="program-session-content">
+                <p class="">{{ sessionpage.content | markdownify }}</p>
+            </div>
+            <p class="program-session-speakers">
+                {% assign speakers = sessionpage.speaker-id | split: ' ' %}
+                {% for speaker in speakers %}
+                    {% for speakerpage in site.pages %}
+                        {% if speakerpage.page-category == "speaker" and speakerpage.url contains speaker %}
+                            <a href="{{ site.baseurl }}{{ speakerpage.url }}">{{ speakerpage.title }}</a>&nbsp;
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </p></div>
+    {% endif %}
+{% endfor %}

@@ -1,0 +1,22 @@
+{
+  "name": "global-azure-bootcamp-2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coding-club-linz/global-azure-bootcamp-2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coding-club-linz/global-azure-bootcamp-2019/issues"
+  },
+  "homepage": "https://github.com/coding-club-linz/global-azure-bootcamp-2019#readme",
+  "dependencies": {
+    "readmore-js": "^2.1.0"
+  }
+}

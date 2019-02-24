@@ -1,0 +1,15 @@
+# Site settings
+title: Global Azure Bootcamp Austria 2019
+email: info@coderdojo-linz.org
+description: > # this means to ignore newlines until "baseurl:"
+  Im Rahmen des Global Azure Bootcamps finden auf der ganzen Welt hunderte Workshops zum Thema Cloud Computing und Microsoft Azure statt.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://gab-at-2019.github.io" # the base hostname & protocol for your site
+twitter_username: CoderDojoLinz
+github_username:  CoderDojo-Linz
+baseurl: /global-azure-bootcamp-2019
+
+# Build settings
+markdown: kramdown
+
+exclude: ["bin", "bower_components", "jekyll", "node_modules", "obj", "styles/sass/*.*", "typings", "coderdojo-linz.*", "*.json", "app.*", "Gulpfile.js", "debug.log"]

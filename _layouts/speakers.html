@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+{% for page in site.pages %}
+	{% if page.page-category == "speaker" %}
+
+		<h1 class="speaker-title">{{ page.title }}<div class="speaker-company">{{page.company}}{% if page.jobtitle %}, {{page.jobtitle}}{% endif %}</div></h1>
+
+		<div class="row">
+			<div class="col-sm-6 col-md-8 col-lg-9">
+				{{ page.content | markdownify }}
+				<p>
+					{% if page.email %}<a href="mailto:{{page.email}}">{{page.email}}</a><br/>{% endif %}
+					{% if page.website %}<a href="{{page.website}}">{{page.website}}</a><br/>{% endif %}
+					{% if page.blog %}<a href="{{page.blog}}">Blog</a><br/>{% endif %}
+					{% if page.twitter %}<a href="{{page.twitter}}">Twitter</a><br/>{% endif %}
+					{% if page.linkedin %}<a href="{{page.linkedin}}">LinkedIn</a><br/>{% endif %}
+				</p>
+
+				<h2>Sessions</h2>
+				<p>
+					<ul>
+						{% for sessionpage in site.pages %}
+							{% if sessionpage.speaker contains page.title and (sessionpage.page-category == "session" or sessionpage.page-category == "junior-session") %}
+								<li><a href="{{ site.baseurl }}{{ sessionpage.url }}">{{ sessionpage.title }}</a></li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+				</p>
+			</div>
+
+			<div class="col-sm-6 col-md-4 col-lg-3">
+				<p class="text-center">
+					{% if page.image != null %}
+					<img class="speaker" src="{{ site.baseurl }}/speaker/images/{{ page.image }}" alt="{{ page.title}} Logo" />
+					{% endif %}
+				</p>
+			</div>
+		</div>
+	{% endif %}
+{% endfor %}

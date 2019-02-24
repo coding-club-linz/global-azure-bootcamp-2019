@@ -1,0 +1,19 @@
+{% for sessionpage in site.pages %} {% if sessionpage.slot == include.slot and sessionpage.room == include.room %}
+<div class="program-session-container" id="session-{{ sessionpage.url | replace: "/sessions/", "" | replace: ".html", "" }}" onclick="location.href='{{ site.baseurl }}{{ sessionpage.url }}'">
+    <h3>{% if sessionpage.slot == 1 %}KEYNOTE: {%endif%}{{ sessionpage.title }}</h3>
+    <p>Raum {{ sessionpage.room }}</p>
+    <div class="program-session-content">
+        <p class="">{{ sessionpage.content | markdownify }}</p>
+    </div>
+    <p class="program-session-speakers">
+        {% assign speakers = sessionpage.speaker-id | split: ' ' %} {% for speaker in speakers %} {% for speakerpage in site.pages
+        %} {% if speakerpage.page-category == "speaker" and speakerpage.url contains speaker %}
+        <a href="{{ site.baseurl }}{{ speakerpage.url }}">{{ speakerpage.title }}</a>&nbsp; {% endif %} {% endfor %} {% endfor %}
+    </p>
+    {% if sessionpage.page-category == "session" %}
+    <p class="program-session-selected add" onclick="selectSession(event, '{{ sessionpage.url }}')"><span class="badge badge-pill badge-primary"><i class="fa fa-check" aria-hidden="true"></i>&nbsp;&nbsp;merken</span></p>
+
+    <p class="program-session-selected remove" onclick="deselectSession(event, '{{ sessionpage.url }}')"><span class="badge badge-pill badge-primary"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;löschen</span></p>
+    {% endif %}
+</div>
+{% endif %} {% endfor %}

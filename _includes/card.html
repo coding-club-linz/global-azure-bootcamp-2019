@@ -1,0 +1,17 @@
+<div class="card" onclick="location.href='{{ site.baseurl }}{{ include.url }}'">
+    <div class="card-block">
+        <h4 class="card-title"></h4>
+        <p><b>{{ include.title }}</b></p>
+        <p>
+            Sprecher: <a href="{{ site.baseurl }}/vortragende/{{ include.speaker-id }}.html">{{ include.speaker }}</a><br/>
+            Raum: {{ include.room }},  {% if include.room contains "15." %}15{%else%}10{% endif %}. Stock<br/>
+            
+        </p>
+    </div>
+    <div class="card-footer">
+        {% if include.page-category == "junior-session" %}
+        <span class="badge badge-success junior-session">Junior Bootcamp</span>
+        {% endif %}
+        <span class="details"><a href="{{ site.baseurl }}{{ include.url }}" class="card-link">Details</a></span>
+    </div>
+</div>

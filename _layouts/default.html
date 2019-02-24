@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="{% if page.excerpt %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
+    />
+    <title>{% if page.title %}Global Azure Bootcamp 2019 | {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <base href="/">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="{{ site.baseurl }}/assets/500x500-300x300.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Global Azure Bootcamp Austria 2019">
+    <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/assets/2017-logo-icon-300x300.png">
+
+    <link rel="icon" href="{{ site.baseurl }}/assets/cropped-logo-2019-762x677-32x32.png" sizes="32x32">
+    <link rel="icon" href="{{ site.baseurl }}/assets/cropped-logo-2019-762x677-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/assets/cropped-logo-2019-762x677-180x180.png">
+
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles/gab.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="{{ site.baseurl }}/scripts/readmore.min.js"></script>
+    <script src="https://cdn.auth0.com/js/auth0/9.3.1/auth0.min.js"></script>
+    <script src="{{ site.baseurl }}/scripts/gab.js"></script>
+</head>
+
+<body>
+    {% include main-menu.html %} {% if page.showJumbotron %} {% include jumbotron.html %} {% endif %} {% if page.showJuniorJumbotron
+    %} {% include junior-jumbotron.html %} {% endif %}
+
+    <div class="container">
+        {{ content }}
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <a href="{{ site.baseurl }}/impressum.html">Impressum</a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        $(".container a[href^='http://']").attr("target", "_blank");
+        $(".container a[href^='https://']").attr("target", "_blank");
+    </script>
+</body>
+
+</html>
