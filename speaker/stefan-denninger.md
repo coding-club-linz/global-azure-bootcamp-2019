@@ -3,6 +3,7 @@ layout: speaker
 page-category: speaker
 title: Stefan Denninger
 company: ACP
+jobtitle: Cloud Architect, P-CSA, RD
 image: stefan-denninger.jpg
 email: stefan.denninger@acp.at
 website: https://www.acp.at/

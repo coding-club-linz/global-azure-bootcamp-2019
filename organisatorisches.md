@@ -33,7 +33,7 @@ Da sich der Wissensturm direkt neben dem Linzer Hauptbahnhof befindet, empfehlen
 
 Der Start der Veranstaltung um 09:15 ist diesmal so gewählte, dass es sowohl aus Wien als auch aus Richtung Salzburg Zugverbindungen gibt, die um ca. 09:00 Uhr in Linz ankommen. Für alle, die auch noch was vom Frühstück abbekommen wollen, gibt es natürlich auch frühere Zugverbindungen. Der Check-In startet um 08:30 und da gibt es auch gleich Kaffee, Getränke und kleine Snacks.
 
-[Mehr über Anreise und Parken...](http://www.linz.at/wissensturm/anreise.asp)<br/>
+[Mehr über Anreise und Parken...](https://wissensturm.linz.at/anreise.php)<br/>
 
 ## Check-In
 
