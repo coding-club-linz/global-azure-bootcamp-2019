@@ -440,6 +440,15 @@ h1 .badge-pill {
     font-size: 14px;
 }
 
+.session-info {
+    margin-top: 90px;
+    margin-bottom: -50px;
+    background-color: #eee;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
 @media (max-width: 991px){
     .card {
         min-width: calc((100% - 3 * 30px) / 3);

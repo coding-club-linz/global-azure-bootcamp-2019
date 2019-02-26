@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<div class="session-info">Weitere Speakers und Sessions folgen in den nächsten Wochen.</div>
+
 # Programm
 
 Die ersten Sessions und Speaker stehen schon fest. Weitere Inhalte und das detaillierte Programm werden wir in den nächsten Wochen laufend aktualisieren.
