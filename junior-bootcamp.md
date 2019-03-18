@@ -9,13 +9,6 @@ showJuniorJumbotron: true
 Am **27. April 2019** werden im Rahmen des **[Global Azure Bootcamps](http://global.azurebootcamp.net)** auf der ganzen Welt hunderte Workshops zum Thema Cloud Computing und [Microsoft Azure](http://azure.microsoft.com) stattfinden. In Linz machen wir parallel zu dieser Veranstaltung erstmals das **Junior Bootcamp**, das sich an **junge Coder zwischen 13 und 17 Jahre** richtet.
 
 Habt ihr **schon etwas Erfahrung beim Programmieren** (z.B. mit Scratch, JavaScript, Python oder Ähnlichem)? Dann könnt Ihr im Junior Bootcamp zum ersten Mal Konferenz-Luft schnuppern. Ihr verbringt den Tag mit vielen Entwicklungs-Profis und könnt von international gefragten Expertinnen und Experten lernen.
-
-<p class="text-center">
-    <a class="btn btn-primary btn-lg" href="https://www.eventbrite.de/e/global-azure-bootcamp-austria-2019-tickets-55850997838"
-        role="button">
-        Zur Anmeldung
-    </a>
-</p>
 </div>
 
 <div class="col-sm" markdown="1">
@@ -31,28 +24,49 @@ Die Teilnahme am Event ist dank der [Sponsoren]({{ site.baseurl }}/sponsoren.htm
 </div>
 </div>
 
+<p class="text-center">
+    <a class="btn btn-primary btn-lg" href="https://www.eventbrite.de/e/global-azure-bootcamp-austria-2019-tickets-55850997838"
+        role="button">
+        Zur Anmeldung
+    </a>
+</p>
+
 # Programm
 
-<ul class="session-list">
+<div class="program">
+<div class="session-container sessions">
 {% assign sorted_pages = site.pages | sort:"title" %}
 {% for page in sorted_pages %}
 	{% if page.page-category == "junior-session" %}
-<li><a href="{{ site.baseurl }}{{page.url}}">{{ page.title }}</a><br/>
-        
+<div class="session-item">
+<h3>{{ page.title }}</h3>
                 {% assign speakers = page.speaker-id | split: ' ' %}
                 {% for speaker in speakers %}
                 {% for speakerpage in site.pages %}
                         {% if speakerpage.page-category == "speaker" and speakerpage.url contains speaker %}
 <span class="session-speaker">
-<a href="{{ site.baseurl }}{{ speakerpage.url }}">{{ speakerpage.title }}, {{ speakerpage.company }}</a>
+<a href="{{ site.baseurl }}{{ speakerpage.url }}">{{ speakerpage.title }}</a>
 </span>
-</li>
+
                         {% endif %}
                 {% endfor %}
                 {% endfor %}
+
+<div class="program-session-content">
+        <p class="">{{ page.content | markdownify }}</p>
+</div>
+
+<!-- {% if page.page-category == "session" %}
+<p class="program-session-selected add" onclick="selectSession(event, '{{ page.url }}')"><span class="badge badge-pill badge-primary"><i class="fa fa-check" aria-hidden="true"></i>&nbsp;&nbsp;merken</span></p>
+
+<p class="program-session-selected remove" onclick="deselectSession(event, '{{ page.url }}')"><span class="badge badge-pill badge-primary"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;löschen</span></p>
+{% endif %}-->
+</div>
 	{% endif %}
 {% endfor %}
-</ul>
+
+</div> 
+</div>
 
 <!--
 

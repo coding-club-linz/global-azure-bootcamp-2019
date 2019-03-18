@@ -4,26 +4,40 @@ layout: default
 
 # Programm
 
-<ul class="session-list">
+<div class="program">
+<div class="session-container sessions">
 {% assign sorted_pages = site.pages | sort:"title" %}
 {% for page in sorted_pages %}
 	{% if page.page-category == "session" %}
-<li><a href="{{ site.baseurl }}{{page.url}}">{{ page.title }}</a><br/>
-        
+<div class="session-item">
+<h3>{{ page.title }}</h3>
                 {% assign speakers = page.speaker-id | split: ' ' %}
                 {% for speaker in speakers %}
                 {% for speakerpage in site.pages %}
                         {% if speakerpage.page-category == "speaker" and speakerpage.url contains speaker %}
 <span class="session-speaker">
-<a href="{{ site.baseurl }}{{ speakerpage.url }}">{{ speakerpage.title }}, {{ speakerpage.company }}</a>
+<a href="{{ site.baseurl }}{{ speakerpage.url }}">{{ speakerpage.title }}</a>
 </span>
-</li>
+
                         {% endif %}
                 {% endfor %}
                 {% endfor %}
+
+<div class="program-session-content">
+        <p class="">{{ page.content | markdownify }}</p>
+</div>
+
+<!-- {% if page.page-category == "session" %}
+<p class="program-session-selected add" onclick="selectSession(event, '{{ page.url }}')"><span class="badge badge-pill badge-primary"><i class="fa fa-check" aria-hidden="true"></i>&nbsp;&nbsp;merken</span></p>
+
+<p class="program-session-selected remove" onclick="deselectSession(event, '{{ page.url }}')"><span class="badge badge-pill badge-primary"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;löschen</span></p>
+{% endif %}-->
+</div>
 	{% endif %}
 {% endfor %}
-</ul>
+
+</div> 
+</div>
 
 
 <!--<div class="container program">
