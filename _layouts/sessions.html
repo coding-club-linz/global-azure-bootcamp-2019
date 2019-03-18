@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<div class="session-info">Weitere Speakers und Sessions folgen in den nächsten Wochen.</div>
-
 {% assign sorted_pages = site.pages | sort:"title" %}
 {% for page in sorted_pages %}
 	{% if page.page-category == "session" or page.page-category == "junior-session" %}

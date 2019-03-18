@@ -31,13 +31,13 @@ Die Teilnahme am Event ist dank der [Sponsoren]({{ site.baseurl }}/sponsoren.htm
 </div>
 </div>
 
-<!--<h2>Programm</h2>
+# Programm
 
-<ul>
+<ul class="session-list">
 {% assign sorted_pages = site.pages | sort:"title" %}
 {% for page in sorted_pages %}
 	{% if page.page-category == "junior-session" %}
-<li><a href="{{ site.baseurl }}{{page.url}}">{{ page.title }}</a>, 
+<li><a href="{{ site.baseurl }}{{page.url}}">{{ page.title }}</a><br/>
         
                 {% assign speakers = page.speaker-id | split: ' ' %}
                 {% for speaker in speakers %}
@@ -53,6 +53,8 @@ Die Teilnahme am Event ist dank der [Sponsoren]({{ site.baseurl }}/sponsoren.htm
 	{% endif %}
 {% endfor %}
 </ul>
+
+<!--
 
 <div class="container program junior-program">
 <div class="row sessions">
