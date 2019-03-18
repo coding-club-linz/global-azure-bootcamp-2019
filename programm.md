@@ -9,7 +9,7 @@ layout: default
 {% assign sorted_pages = site.pages | sort:"title" %}
 {% for page in sorted_pages %}
 	{% if page.page-category == "session" %}
-<div class="session-item">
+<div class="session-item" onclick="location.href='{{ site.baseurl }}{{ page.url }}'">
 <h3>{{ page.title }}</h3>
                 {% assign speakers = page.speaker-id | split: ' ' %}
                 {% for speaker in speakers %}
