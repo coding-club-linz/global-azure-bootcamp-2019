@@ -6,7 +6,7 @@ showJuniorJumbotron: true
 
 <div class="row">
 <div class="col-sm" markdown="1">
-Am **27. April 2019** werden im Rahmen des **[Global Azure Bootcamps](http://global.azurebootcamp.net)** auf der ganzen Welt hunderte Workshops zum Thema Cloud Computing und [Microsoft Azure](http://azure.microsoft.com) stattfinden. In Linz machen wir parallel zu dieser Veranstaltung erstmals das **Junior Bootcamp**, das sich an **junge Coder zwischen 13 und 17 Jahre** richtet.
+Am **27. April 2019** werden im Rahmen des **[Global Azure Bootcamps](http://global.azurebootcamp.net)** auf der ganzen Welt hunderte Workshops zum Thema Cloud Computing und [Microsoft Azure](http://azure.microsoft.com) stattfinden. In Linz machen wir parallel zu dieser Veranstaltung auch wieder das **Junior Bootcamp**, das sich an **junge Coder zwischen 13 und 17 Jahren** richtet.
 
 Habt ihr **schon etwas Erfahrung beim Programmieren** (z.B. mit Scratch, JavaScript, Python oder Ähnlichem)? Dann könnt Ihr im Junior Bootcamp zum ersten Mal Konferenz-Luft schnuppern. Ihr verbringt den Tag mit vielen Entwicklungs-Profis und könnt von international gefragten Expertinnen und Experten lernen.
 </div>
