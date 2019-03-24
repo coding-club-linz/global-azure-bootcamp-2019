@@ -4,7 +4,7 @@ page-category: speaker
 title: Nahed Hatahet
 company: HATAHET productivity solutions
 jobtitle: SharePoint Architect mit Schwerpunkt auf Produktivitätslösungen mit Office 365 und Azure
-email: julia@hatahet.eu
+email: office@hatahet.eu
 image: nahed-hatahet.jpg
 twitter: https://twitter.com/HATAHETonline
 blog: http://www.sharepoint.at/

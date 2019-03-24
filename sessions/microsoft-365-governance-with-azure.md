@@ -2,8 +2,8 @@
 layout: session
 page-category: session
 title: Microsoft 365 Governance with Azure
-speaker: Martina Grom
-speaker-id: martina-grom
+speaker: Martina Grom, Toni Pohl
+speaker-id: martina-grom toni-pohl
 ---
 
 Die Microsoft Cloud bietet eine Vielzahl an Diensten um Business-Szenarien abzubilden. In der realen Welt wünschen Kunden automatisierte Lösungen und Umsetzungen ihrer IT-Governance und ihrer Prozesse.
