@@ -9,7 +9,7 @@ image: logo-hatahet.png
 Bartensteingasse 16/7<br/>
 A-1010 Wien<br/>
 [www.hatahet.eu](http://www.hatahet.eu/)<br/>
-[www.sharepoint.at](http://www.sharepoint.at/)
+[www.sharepoint.at](http://www.sharepoint.at/)<br/>
 [www.hatahet.ai](https://www.hatahet.ai/)
 
 HATAHET ist ein renommiertes IT-Beratungsunternehmen mit dem Fokus, das Wachstum Ihres Unternehmens durch den Einsatz von produktivitätssteigernden Digitalen Arbeitsplatz-Lösungen zu unterstützen. Dazu setzen wir unter anderem auch auf Technologien wie Bots und künstliche Intelligenz.
