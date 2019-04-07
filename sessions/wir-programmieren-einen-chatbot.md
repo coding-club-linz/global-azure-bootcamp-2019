@@ -4,6 +4,8 @@ page-category: junior-session
 title: Wir programmiern einen Chatbot!
 speaker: Pia Gerhofer
 speaker-id: pia-gerhofer
+room: '09.08'
+slot: 2
 ---
 
 Du wolltest schon immer wissen, wie man einen Chatbot programmiert? 

@@ -4,43 +4,7 @@ layout: default
 
 # Programm
 
-<div class="program">
-<div class="session-container sessions">
-{% assign sorted_pages = site.pages | sort:"title" %}
-{% for page in sorted_pages %}
-	{% if page.page-category == "session" %}
-<div class="session-item" onclick="location.href='{{ site.baseurl }}{{ page.url }}'">
-<h3>{{ page.title }}</h3>
-                {% assign speakers = page.speaker-id | split: ' ' %}
-                {% for speaker in speakers %}
-                {% for speakerpage in site.pages %}
-                        {% if speakerpage.page-category == "speaker" and speakerpage.url contains speaker %}
-<span class="session-speaker">
-<a href="{{ site.baseurl }}{{ speakerpage.url }}">{{ speakerpage.title }}</a>
-</span>
-
-                        {% endif %}
-                {% endfor %}
-                {% endfor %}
-
-<div class="program-session-content">
-        <p class="">{{ page.content | markdownify }}</p>
-</div>
-
-<!-- {% if page.page-category == "session" %}
-<p class="program-session-selected add" onclick="selectSession(event, '{{ page.url }}')"><span class="badge badge-pill badge-primary"><i class="fa fa-check" aria-hidden="true"></i>&nbsp;&nbsp;merken</span></p>
-
-<p class="program-session-selected remove" onclick="deselectSession(event, '{{ page.url }}')"><span class="badge badge-pill badge-primary"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;löschen</span></p>
-{% endif %}-->
-</div>
-	{% endif %}
-{% endfor %}
-
-</div> 
-</div>
-
-
-<!--<div class="container program">
+<div class="container program">
 <div class="row sessions">
         <div class="col-md-1 d-none d-md-block">Raum</div>
         <div class="col-md-3 d-none d-md-block">E09<br/></div>
@@ -159,7 +123,7 @@ E09 | Ergeschoß | Im großen Veranstaltungssaal des Wissensturm starten wir die
       </div>
     </div>
   </div>
-</div>-->
+</div>
 
 <script>
         $(function() {

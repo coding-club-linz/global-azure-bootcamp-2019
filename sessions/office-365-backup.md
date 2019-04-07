@@ -4,6 +4,8 @@ page-category: session
 title: Office 365, aber nicht ohne Backup!
 speaker: Rainer Fuebi
 speaker-id: rainer-fuebi
+room: '15.04'
+slot: 5
 ---
 
 - Warum man vor allem auch für Office 365 ein Backup benötigt

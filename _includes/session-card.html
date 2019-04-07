@@ -1,7 +1,23 @@
 {% for sessionpage in site.pages %} {% if sessionpage.slot == include.slot and sessionpage.room == include.room %}
 <div class="program-session-container" id="session-{{ sessionpage.url | replace: "/sessions/", "" | replace: ".html", "" }}" onclick="location.href='{{ site.baseurl }}{{ sessionpage.url }}'">
     <h3>{% if sessionpage.slot == 1 %}KEYNOTE: {%endif%}{{ sessionpage.title }}</h3>
-    <p>Raum {{ sessionpage.room }}</p>
+    <p>
+        {% if sessionpage.room == '09.08' %}
+            {% if sessionpage.slot == 2 %}09:40{% endif %}
+            {% if sessionpage.slot == 3 %}10:55{% endif %}
+            {% if sessionpage.slot == 4 %}12:45{% endif %}
+            {% if sessionpage.slot == 5 %}13:50{% endif %}
+            {% if sessionpage.slot == 6 %}14:55{% endif %}
+        {% else %} 
+            {% if sessionpage.slot == 1 %}09:15{% endif %}
+            {% if sessionpage.slot == 2 %}09:55{% endif %}
+            {% if sessionpage.slot == 3 %}11:10{% endif %}
+            {% if sessionpage.slot == 4 %}13:00{% endif %}
+            {% if sessionpage.slot == 5 %}14:05{% endif %}
+            {% if sessionpage.slot == 6 %}15:10{% endif %}
+        {% endif %}
+        - Raum {{ sessionpage.room }}
+    </p>
     <div class="program-session-content">
         <p class="">{{ sessionpage.content | markdownify }}</p>
     </div>

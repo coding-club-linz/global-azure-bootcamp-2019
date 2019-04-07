@@ -4,6 +4,8 @@ page-category: session
 title: Der JAMStack auf Azure
 speaker: Stefan Baumgartner
 speaker-id: stefan-baumgartner
+room: 'E09'
+slot: 5
 ---
 
 Das "JAM" in JAMStack steht für JavaScript, APIs & Markup und bezeichnet eine auf Cloud Infrastrukturen ausgerichtete Architektur für Websites:

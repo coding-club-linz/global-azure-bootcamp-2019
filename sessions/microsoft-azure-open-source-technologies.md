@@ -4,6 +4,8 @@ page-category: session
 title: Microsoft Azure <3 Open Source Technologies
 speaker: Hans-Peter Grahsl
 speaker-id: hans-peter-grahsl
+room: '10.07'
+slot: 5
 ---
 
 Über die letzten Jahre hat Microsoft stets aufs Neue bewiesen, welchen hohen Stellenwert Open Source Technologien insbesondere auch in unterschiedlichen Azure Cloud Computing Services eingeräumt bekommen.

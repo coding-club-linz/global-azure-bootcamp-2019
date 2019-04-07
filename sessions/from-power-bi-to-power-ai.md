@@ -4,6 +4,8 @@ page-category: session
 title: From Power BI to Power AI – Enrich your Business Intelligence with Artificial Intelligence
 speaker: Markus Ehrenmüller-Jensen
 speaker-id: markus-ehrenmueller-jensen
+room: 'E09'
+slot: 2
 ---
 
 AI is everywhere – and now even included in Power BI. Sometimes AI might be very apparent when you enrich your data with predictions by explicitly calling an Azure Machine Learning web service in Power Query. Sometimes it might by hidden in a nice little context menu when Power BI is automagically explaining the reason of a difference or a change over time in your data to you.

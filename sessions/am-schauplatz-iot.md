@@ -4,6 +4,8 @@ page-category: session
 title: Am Schauplatz - IOT
 speaker: Mario Schnalzenberger
 speaker-id: mario-schnalzenberger
+room: '10.07'
+slot: 2
 ---
 
 Wie werden IoT Projekte erfolgreich realisiert? Wie können oder sollen sie konzipiert werden? Was sind dabei die Herausforderungen und Erfolgsfaktoren? Wir teilen mit Ihnen unsere Learnings aus den unterschiedlichen IoT Projekten, die wir bereits gemeinsam mit unseren Kunden umgesetzt haben.

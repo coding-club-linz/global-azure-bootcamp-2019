@@ -4,6 +4,8 @@ page-category: session
 title: Office 365 Modern Workplace FrontEnd Entwicklung (Showcase)
 speaker: Nahed Hatahet, Mathias Tauber
 speaker-id: nahed-hatahet mathias-tauber
+room: '15.04'
+slot: 3
 ---
 
 - Geschichte und Zukunft der SharePoint Entwicklung
