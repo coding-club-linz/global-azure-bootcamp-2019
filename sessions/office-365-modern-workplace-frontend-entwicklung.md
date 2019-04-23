@@ -8,8 +8,8 @@ room: '15.04'
 slot: 3
 ---
 
-- Geschichte und Zukunft der SharePoint Entwicklung
-- Workplace FrontEnd Entwicklung mit SharePoint Framework (SPFx)
-- Integration von SharePoint SPFx WebParts in Microsoft Teams (Beta)
+- Office 365 Modern Workplace Frontend Möglichkeiten (und Azure Backend)
+- Frontend Entwicklung mit Office UI Fabric und SharePoint Framework (SPFx)
 - SharePoint REST API (List und File API) mit TypeScript und React nutzen
-- Session-Beispiel: How we build HATAHET Tiles WebPart for SharePoint & Teams
+- Coding-Beispiele: How we build HATAHET Tiles WebPart for Office 365
+- Integration von SharePoint SPFx WebParts in Microsoft Teams
