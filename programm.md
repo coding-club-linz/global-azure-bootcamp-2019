@@ -13,78 +13,78 @@ layout: default
         <div class="col-md-2 d-none d-md-block">15.05<br/></div>
 </div>
 <div class="row break">
-        <div class="col-md-1">08:30</div>
+        <div class="col-md-1">08:30 - 09:15</div>
         <div class="col-md-3">Check-In / Kaffee, Getränke und kleine Snacks</div>
         <div class="col-md-8 d-none d-md-block"></div>
 </div>
 <div class="row sessions">
-        <div class="col-md-1">09:15</div>
+        <div class="col-md-1">09:15 - 09:50</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=1 %}</div>
         <div class="col-md-3 d-none d-md-block"></div>
         <div class="col-md-3 d-none d-md-block"></div>
         <div class="col-md-2 d-none d-md-block"></div>
 </div>
 <div class="row sessions">
-        <div class="col-md-1">09:55</div>
+        <div class="col-md-1">09:55 - 10:45</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=2 %}</div>
         <div class="col-md-3">{% include session-card.html room='10.07' slot=2 %}</div>
         <div class="col-md-3">{% include session-card.html room='15.04' slot=2 %}</div>
         <div class="col-md-2">{% include session-card.html room='15.05' slot=2 %}</div>
 </div>
 <div class="row break">
-        <div class="col-md-1">10:45</div>
+        <div class="col-md-1">10:45 - 11:10</div>
         <div class="col-md-3">Kaffee, Getränke und kleine Snacks</div>
         <div class="col-md-3 d-none d-md-block"></div>
         <div class="col-md-5 d-none d-md-block">Kaffee, Getränke und kleine Snacks</div>
 </div>
 <div class="row sessions">
-        <div class="col-md-1">11:10</div>
+        <div class="col-md-1">11:10 - 12:00</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=3 %}</div>
         <div class="col-md-3">{% include session-card.html room='10.07' slot=3 %}</div>
         <div class="col-md-3">{% include session-card.html room='15.04' slot=3 %}</div>
         <div class="col-md-2">{% include session-card.html room='15.05' slot=3 %}</div>
 </div>
 <div class="row break">
-        <div class="col-md-1">12:00</div>
+        <div class="col-md-1">12:00 - 13:00</div>
         <div class="col-md-3 d-none d-md-block"></div>
         <div class="col-md-3 d-none d-md-block"></div>
         <div class="col-md-5">Warmes Mittagessen</div>
 </div>
 <div class="row sessions">
-        <div class="col-md-1">13:00</div>
+        <div class="col-md-1">13:00 - 13:50</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=4 %}</div>
         <div class="col-md-3">{% include session-card.html room='10.07' slot=4 %}</div>
         <div class="col-md-3">{% include session-card.html room='15.04' slot=4 %}</div>
         <div class="col-md-2">{% include session-card.html room='15.05' slot=4 %}</div>
 </div>
 <div class="row break">
-        <div class="col-md-1">13:50</div>
+        <div class="col-md-1">13:50 - 14:05</div>
         <div class="col-md-3">Kaffee, Getränke und Kuchen</div>
         <div class="col-md-3 d-none d-md-block"></div>
         <div class="col-md-5 d-none d-md-block">Kaffee, Getränke und Kuchen</div>
 </div>
 <div class="row sessions">
-        <div class="col-md-1">14:05</div>
+        <div class="col-md-1">14:05 - 14:55</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=5 %}</div>
         <div class="col-md-3">{% include session-card.html room='10.07' slot=5 %}</div>
         <div class="col-md-3">{% include session-card.html room='15.04' slot=5 %}</div>
         <div class="col-md-2">{% include session-card.html room='15.05' slot=5 %}</div>
 </div>
 <div class="row break">
-        <div class="col-md-1">14:55</div>
+        <div class="col-md-1">14:55 - 15:10</div>
         <div class="col-md-3">Kaffee, Getränke und Kuchen</div>
         <div class="col-md-3 d-none d-md-block"></div>
         <div class="col-md-5 d-none d-md-block">Kaffee, Getränke und Kuchen</div>
 </div>
 <div class="row sessions">
-        <div class="col-md-1">15:10</div>
+        <div class="col-md-1">15:10 - 16:00</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=6 %}</div>
         <div class="col-md-3">{% include session-card.html room='10.07' slot=6 %}</div>
         <div class="col-md-3">{% include session-card.html room='15.04' slot=6 %}</div>
         <div class="col-md-2">{% include session-card.html room='15.05' slot=6 %}</div>
 </div>
 <div class="row sessions">
-        <div class="col-md-1">16:00</div>
+        <div class="col-md-1">16:00 - 16:15</div>
         <div class="col-md-3">
                 <h3>Abschluss</h3>
                 <p>Coding Club Linz</p>

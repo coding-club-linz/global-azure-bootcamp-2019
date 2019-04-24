@@ -41,67 +41,67 @@ Die Teilnahme am Event ist dank der [Sponsoren]({{ site.baseurl }}/sponsoren.htm
         <div class="col-md-2 d-none d-md-block">15. Stock</div>
 </div>
 <div class="row break">
-        <div class="col-md-1">09:00</div>
+        <div class="col-md-1">09:00 - 09:40</div>
         <div class="col-md-2">Check-In / Getränke und kleine Snacks</div>
         <div class="col-md-7 d-none d-md-block"></div>
         <div class="col-md-2 d-none d-md-block"></div>
 </div>
 <div class="row sessions">
-        <div class="col-md-1">09:40</div>
+        <div class="col-md-1">09:40 - 10:30</div>
         <div class="col-md-2 d-none d-md-block"></div>
         <div class="col-md-7">{% include session-card.html room='09.08' slot=2 %}</div>
         <div class="col-md-2 d-none d-md-block"></div>
 </div>
 <div class="row break">
-        <div class="col-md-1">10:30</div>
-        <div class="col-md-2">Getränke und kleine Snacks</div>
+        <div class="col-md-1">10:30 - 10:55</div>
+        <div class="col-md-2 d-none d-md-block">Getränke und kleine Snacks</div>
         <div class="col-md-7 d-none d-md-block"></div>
         <div class="col-md-2">Getränke und kleine Snacks</div>
 </div>
 <div class="row sessions">
-        <div class="col-md-1">10:55</div>
+        <div class="col-md-1">10:55 - 11:45</div>
         <div class="col-md-2 d-none d-md-block"></div>
         <div class="col-md-7">{% include session-card.html room='09.08' slot=3 %}</div>
         <div class="col-md-2 d-none d-md-block"></div>
 </div>
 <div class="row break">
-        <div class="col-md-1">11:45</div>
+        <div class="col-md-1">11:45 - 12:45</div>
         <div class="col-md-2 d-none d-md-block"></div>
         <div class="col-md-7 d-none d-md-block"></div>
         <div class="col-md-2">Warmes Mittagessen</div>
 </div>
 <div class="row sessions">
-        <div class="col-md-1">12:45</div>
+        <div class="col-md-1">12:45 - 13:35</div>
         <div class="col-md-2 d-none d-md-block"></div>
         <div class="col-md-7">{% include session-card.html room='09.08' slot=4 %}</div>
         <div class="col-md-2 d-none d-md-block"></div>
 </div>
 <div class="row break">
-        <div class="col-md-1">13:35</div>
-        <div class="col-md-2">Getränke und Kuchen</div>
+        <div class="col-md-1">13:35 - 13:50</div>
+        <div class="col-md-2 d-none d-md-block">Getränke und Kuchen</div>
         <div class="col-md-7 d-none d-md-block"></div>
         <div class="col-md-2">Getränke und Kuchen</div>
 </div>
 <div class="row sessions">
-        <div class="col-md-1">13:50</div>
+        <div class="col-md-1">13:50 - 14:40</div>
         <div class="col-md-2 d-none d-md-block"></div>
         <div class="col-md-7">{% include session-card.html room='09.08' slot=5 %}</div>
         <div class="col-md-2 d-none d-md-block"></div>
 </div>
 <div class="row break">
-        <div class="col-md-1">14:40</div>
-        <div class="col-md-2">Getränke und Kuchen</div>
+        <div class="col-md-1">14:40 - 14:55</div>
+        <div class="col-md-2 d-none d-md-block">Getränke und Kuchen</div>
         <div class="col-md-7 d-none d-md-block"></div>
         <div class="col-md-2">Getränke und Kuchen</div>
 </div>
 <div class="row sessions">
-        <div class="col-md-1">14:55</div>
+        <div class="col-md-1">14:55 - 15:45</div>
         <div class="col-md-2 d-none d-md-block"></div>
         <div class="col-md-7">{% include session-card.html room='09.08' slot=6 %}</div>
         <div class="col-md-2 d-none d-md-block"></div>
 </div>
 <div class="row sessions">
-        <div class="col-md-1">16:00</div>
+        <div class="col-md-1">16:00 - 16:15</div>
         <div class="col-md-2">
                 <h3>Abschluss</h3>
                 <p>Coding Club Linz</p>

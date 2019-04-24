@@ -513,4 +513,16 @@ h1 .badge-pill {
     .expand-content i, .collapse-content i { 
         font-size: 24px;
     }
+
+    div.row.break {
+        font-size: larger;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .program div.sessions > div:first-of-type {
+        font-size: larger;
+        font-weight: bold;
+        text-align: center;
+    }
 }
