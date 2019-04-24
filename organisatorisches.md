@@ -41,5 +41,16 @@ Der Check-In findet diesmal ab 08:30 im Erdgeschoß vor dem großen Veranstaltun
 
 ## Verpflegung
 
-Dank unserer [Sponsoren]({{ site.baseurl }}/sponsoren.html) können wir in den Pausen am Vormittag und Nachmittag Snacks und Getränke anbieten. Auch für ein warmes Mittagessen ist gesorgt.
+Ein großes Dankeschön geht an unsere [Sponsoren]({{ site.baseurl }}/sponsoren.html), die die Verpflegung während des Events ermöglichen!
+
+**Pausen**: Im EG und im 15. Stock stehen Obst, kleine Snacks, Getränke und Kaffee zur Verfügung. Dank der Firma [cubido](https://www.cubido.at/) stehen diesmal acht Kaffeemaschinen zur Verfügung!
+
+**Mittagessen**: Ab 11:45 gibt's im 15. Stock ein warmes Mittagessen.
+
+Um die Wartezeiten bei der Essensausgabe möglichst kurz zu halten, bitten wir alle Teilnehmer, sich beim Check-In einen Sticker für ihren Time Slot beim Mittagessen zu holen und dann zu dieser Zeit zum Essen in den 15. Stock zu kommen.
+
+<img src="{{ site.baseurl }}/assets/Smiley-red.svg" width="20" /> 11:45 Uhr, Junior Bootcamp & Speaker<br/>
+<img src="{{ site.baseurl }}/assets/Smiley-yellow.svg" width="20" /> 12:00 Uhr<br/>
+<img src="{{ site.baseurl }}/assets/Smiley-green.svg" width="20" /> 12:15 Uhr<br/>
+<img src="{{ site.baseurl }}/assets/Smiley-blue.svg" width="20" /> 12:30 Uhr
 
