@@ -1,7 +1,7 @@
 ---
 layout: session
 page-category: junior-session
-title: Wir programmiern einen Chatbot!
+title: Wir programmieren einen Chatbot!
 speaker: Pia Gerhofer
 speaker-id: pia-gerhofer
 room: '09.08'
