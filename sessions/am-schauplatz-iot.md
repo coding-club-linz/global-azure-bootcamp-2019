@@ -4,7 +4,7 @@ page-category: session
 title: Am Schauplatz - IOT
 speaker: Mario Schnalzenberger
 speaker-id: mario-schnalzenberger
-room: '10.07'
+room: '15.04'
 slot: 2
 ---
 

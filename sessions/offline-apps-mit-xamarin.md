@@ -4,7 +4,7 @@ page-category: session
 title: Offline Apps mit Xamarin.Forms und EntityFramework
 speaker: Raphael Schwarz
 speaker-id: raphael-schwarz
-room: '10.07'
+room: '15.04'
 slot: 6
 ---
 

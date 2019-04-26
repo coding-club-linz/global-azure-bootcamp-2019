@@ -4,7 +4,7 @@ page-category: session
 title: Office 365, aber nicht ohne Backup!
 speaker: Rainer Fuebi
 speaker-id: rainer-fuebi
-room: '15.04'
+room: '10.07'
 slot: 5
 ---
 

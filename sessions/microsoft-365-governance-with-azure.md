@@ -4,7 +4,7 @@ page-category: session
 title: Microsoft 365 Governance with Azure
 speaker: Martina Grom, Toni Pohl
 speaker-id: martina-grom toni-pohl
-room: '15.04'
+room: '10.07'
 slot: 6
 ---
 

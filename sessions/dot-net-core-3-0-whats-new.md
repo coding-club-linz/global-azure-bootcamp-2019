@@ -4,7 +4,7 @@ page-category: session
 title: .NET Core 3.0 - What's new?
 speaker: Christian Nagel
 speaker-id: christian-nagel
-room: '10.07'
+room: 'E09'
 slot: 3
 ---
 

@@ -4,7 +4,7 @@ page-category: session
 title: The Microsoft Power Platform - What Is It?
 speaker: Wolfgang Strasser
 speaker-id: wolfgang-strasser
-room: '15.04'
+room: '10.07'
 slot: 2
 ---
 

@@ -4,7 +4,7 @@ page-category: session
 title: Cognitive (Easter) Services
 speaker: Roman Schacherl
 speaker-id: roman-schacherl
-room: 'E09'
+room: '15.04'
 slot: 3
 ---
 

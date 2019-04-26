@@ -4,7 +4,7 @@ page-category: session
 title: Intelligente Software mit Office 365 und Azure erstellen (Showcase)
 speaker: Marc Pieber
 speaker-id: marc-pieber stefan-dittrich
-room: '15.04'
+room: '10.07'
 slot: 4
 ---
 

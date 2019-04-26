@@ -4,7 +4,7 @@ page-category: session
 title: Monitoring Solutions with Azure Monitor
 speaker: Andreas Pollak
 speaker-id: andreas-pollak
-room: 'E09'
+room: '15.04'
 slot: 4
 ---
 

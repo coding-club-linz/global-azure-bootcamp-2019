@@ -4,7 +4,7 @@ page-category: session
 title: Software Development @ Microsoft
 speaker: Gerwald Oberleitner
 speaker-id: gerwald-oberleitner
-room: '10.07'
+room: 'E09'
 slot: 4
 ---
 

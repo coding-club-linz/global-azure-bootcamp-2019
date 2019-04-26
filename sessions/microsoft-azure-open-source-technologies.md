@@ -4,7 +4,7 @@ page-category: session
 title: Microsoft Azure <3 Open Source Technologies
 speaker: Hans-Peter Grahsl
 speaker-id: hans-peter-grahsl
-room: '10.07'
+room: '15.04'
 slot: 5
 ---
 
