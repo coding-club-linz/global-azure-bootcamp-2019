@@ -1,6 +1,6 @@
 {% for sessionpage in site.pages %} {% if sessionpage.slot == include.slot and sessionpage.room == include.room %}
 <div class="program-session-container" id="session-{{ sessionpage.url | replace: "/sessions/", "" | replace: ".html", "" }}" onclick="location.href='{{ site.baseurl }}{{ sessionpage.url }}'">
-    <h3>{% if sessionpage.slot == 1 %}KEYNOTE: {%endif%}{{ sessionpage.title }}</h3>
+    <h3>{% if sessionpage.slot == 1 %}{%endif%}{{ sessionpage.title }}</h3>
     <p>
         {% if sessionpage.room == '09.08' %}
             {% if sessionpage.slot == 2 %}09:40 - 10:30,{% endif %}
