@@ -30,13 +30,31 @@ a {
 }
 
 .jumbotron-pro {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/global-azure-bootcamp-2019/assets/Audience.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/global-azure-bootcamp-2019/assets/Audience.jpg);
     border-bottom: solid 1px #0094ff;
 }
 
 .jumbotron-junior {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/global-azure-bootcamp-2019/assets/Junior-Audience.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(/global-azure-bootcamp-2019/assets/Junior-Audience.jpg);
     border-bottom: solid 1px #0094ff;
+}
+
+.jumbotron-next {
+    background-color: #0094ff;
+    margin-top: -4rem;
+}
+
+.jumbotron-next a.btn-primary {
+    background-color: #fff;
+    color: #000;
+}
+
+.jumbotron-next p {
+    margin-top: 2rem;
+}
+
+.jumbotron-next a.btn-primary:hover {
+    background-color: #ddd;
 }
 
 .navbar {

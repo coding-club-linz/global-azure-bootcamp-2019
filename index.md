@@ -24,10 +24,3 @@ Hier ein Auszug aus dem Themen, die euch beim Global Azure Bootcamp in Linz erwa
 * Microsoft Graph
 </div>
 </div>
-
-<p class="text-center">
-    <a class="btn btn-primary btn-lg" href="https://www.eventbrite.de/e/global-azure-bootcamp-austria-2019-tickets-55850997838"
-        role="button">
-        Zur Anmeldung
-    </a>
-</p>
